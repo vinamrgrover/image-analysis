@@ -1,0 +1,14 @@
+You need to return the specific properties of the image:
+- description : Short description of the image
+- objects : All the detected objects in the image
+- colors : All the colors used in the image
+
+The output should be a structured JSON:
+
+```
+{
+    "description" : "string",
+    "objects" : ["string"],
+    "colors" : ["string"]
+}
+```

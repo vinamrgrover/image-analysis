@@ -1,0 +1,13 @@
+You need to describe the image and return the following entities:
+- description : A lengthy description about the image
+- tags : Tags or keywords related to the image
+
+The output should be a structured JSON:
+
+```
+{
+    "description" : "string",
+    "tags" : ["string"]
+}
+```
+
