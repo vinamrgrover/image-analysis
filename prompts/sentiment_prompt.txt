@@ -1,0 +1,13 @@
+You need to perform a sentiment analysis of the image and return the following fields:
+- description : Description of the image's sentiment
+- score : Image's sentiment score out of 100
+
+The output should be a structured JSON:
+
+```
+{
+    "description" : "string",
+    "score" : "int"
+}
+```
+
